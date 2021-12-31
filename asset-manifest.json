@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/shifumiapp/static/css/main.35016d59.css",
-    "main.js": "/shifumiapp/static/js/main.9c63c61c.js",
-    "static/js/787.746cad1b.chunk.js": "/shifumiapp/static/js/787.746cad1b.chunk.js",
+    "main.js": "/shifumiapp/static/js/main.cc25c3b7.js",
+    "static/media/poke.jpg": "/shifumiapp/static/media/poke.1d5a50d8fcfcb440a308.jpg",
+    "static/media/PFCLS.jpg": "/shifumiapp/static/media/PFCLS.7267c762ae8bcf755ae3.jpg",
+    "static/media/PFC.jpg": "/shifumiapp/static/media/PFC.30062cd3799baf5ed7bc.jpg",
     "index.html": "/shifumiapp/index.html",
     "main.35016d59.css.map": "/shifumiapp/static/css/main.35016d59.css.map",
-    "main.9c63c61c.js.map": "/shifumiapp/static/js/main.9c63c61c.js.map",
-    "787.746cad1b.chunk.js.map": "/shifumiapp/static/js/787.746cad1b.chunk.js.map"
+    "main.cc25c3b7.js.map": "/shifumiapp/static/js/main.cc25c3b7.js.map"
   },
   "entrypoints": [
     "static/css/main.35016d59.css",
-    "static/js/main.9c63c61c.js"
+    "static/js/main.cc25c3b7.js"
   ]
 }
