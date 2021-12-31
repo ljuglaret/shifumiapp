@@ -1,3 +1,4 @@
+import { Module } from "module"
 import { type } from "os"
 
 
@@ -13,7 +14,7 @@ export enum PFC  {
     C = "Ciseaux"
 };
 
-enum PFCLS {
+export enum PFCLS {
     P = "Pierre",
     F = "Feuille",
     C = "Ciseaux" ,
@@ -21,7 +22,7 @@ enum PFCLS {
     S = "Spoke"
 }
 
-enum Poke {
+export enum Poke {
     Bulbi = "Bulbizard",
     Cara = "Carapuce",
     Sala = "Salameche",
@@ -42,7 +43,7 @@ export function comparePFC(j1 : PFC, j2 : PFC) : number{
     else return 1
 }
 
-function comparePFCLS(j1 : PFCLS, j2 : PFCLS) : number{
+export function comparePFCLS(j1 : PFCLS, j2 : PFCLS) : number{
     if (j1 === PFCLS.P && j2 === PFCLS.F){return -1}
     if (j1 === PFCLS.F && j2 === PFCLS.C){return -1}
     if (j1 === PFCLS.C && j2 === PFCLS.P){return -1}
@@ -57,7 +58,7 @@ function comparePFCLS(j1 : PFCLS, j2 : PFCLS) : number{
     else return 1
 }
 
-function comparePoke(j1 : Poke , j2 : Poke) : number{
+export function comparePoke(j1 : Poke , j2 : Poke) : number{
     if (j1 === Poke.Bulbi && j2 === Poke.Sala){return -1}
     if (j1 === Poke.Sala && j2 === Poke.Cara){return -1}
     if (j1 === Poke.Cara && j2 === Poke.Bulbi){return -1}
@@ -78,7 +79,7 @@ export function reglesPFC (j1 : PFC , j2 : PFC)  : string {
     else return ""      
 }
   
-function reglesPFCLS (j1 : PFCLS , j2 : PFCLS)  : string {
+export function reglesPFCLS (j1 : PFCLS , j2 : PFCLS)  : string {
     if (j1 === PFCLS.P && j2 === PFCLS.F){return "La pierre est enveloppee par la feuille" }
     if (j1 === PFCLS.F && j2 === PFCLS.C){return "La feuille est coupée par les ciseaux" }
     if (j1 === PFCLS.C && j2 === PFCLS.P){return "Les ciseaux sont cassés par la pierre"}
@@ -104,7 +105,7 @@ function reglesPFCLS (j1 : PFCLS , j2 : PFCLS)  : string {
 }
 
 
-function reglesPoke (j1 : Poke , j2 : Poke)  : string {
+export function reglesPoke (j1 : Poke , j2 : Poke)  : string {
     if (j1 === Poke.Cara && j2 === Poke.Bulbi){return "Carapuce est absorbé par Bulbizard " }
     if (j1 === Poke.Sala && j2 === Poke.Cara){return "Salameche est éteint par Carapuce" }
     if (j1 === Poke.Bulbi && j2 === Poke.Sala){return "Bulbizard est brûlé par Salameche "}
