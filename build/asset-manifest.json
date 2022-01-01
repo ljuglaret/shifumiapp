@@ -1,16 +1,16 @@
 {
-  "files": {
-    "main.css": "/shifumiapp/static/css/main.35016d59.css",
-    "main.js": "/shifumiapp/static/js/main.cc25c3b7.js",
-    "static/media/poke.jpg": "/shifumiapp/static/media/poke.1d5a50d8fcfcb440a308.jpg",
-    "static/media/PFCLS.jpg": "/shifumiapp/static/media/PFCLS.7267c762ae8bcf755ae3.jpg",
-    "static/media/PFC.jpg": "/shifumiapp/static/media/PFC.30062cd3799baf5ed7bc.jpg",
-    "index.html": "/shifumiapp/index.html",
-    "main.35016d59.css.map": "/shifumiapp/static/css/main.35016d59.css.map",
-    "main.cc25c3b7.js.map": "/shifumiapp/static/js/main.cc25c3b7.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.35016d59.css",
-    "static/js/main.cc25c3b7.js"
-  ]
+  "main.css": "/shifumiapp/static/css/main.f1f2dfeb.chunk.css",
+  "main.js": "/shifumiapp/static/js/main.72b00364.chunk.js",
+  "main.js.map": "/shifumiapp/static/js/main.72b00364.chunk.js.map",
+  "runtime~main.js": "/shifumiapp/static/js/runtime~main.c8395a08.js",
+  "runtime~main.js.map": "/shifumiapp/static/js/runtime~main.c8395a08.js.map",
+  "static/js/2.027070b8.chunk.js": "/shifumiapp/static/js/2.027070b8.chunk.js",
+  "static/js/2.027070b8.chunk.js.map": "/shifumiapp/static/js/2.027070b8.chunk.js.map",
+  "index.html": "/shifumiapp/index.html",
+  "precache-manifest.5a710c52e37c06fc3fe1f17ad3cc2b22.js": "/shifumiapp/precache-manifest.5a710c52e37c06fc3fe1f17ad3cc2b22.js",
+  "service-worker.js": "/shifumiapp/service-worker.js",
+  "static/css/main.f1f2dfeb.chunk.css.map": "/shifumiapp/static/css/main.f1f2dfeb.chunk.css.map",
+  "static/media/PFC.jpg": "/shifumiapp/static/media/PFC.c7768f98.jpg",
+  "static/media/PFCLS.jpg": "/shifumiapp/static/media/PFCLS.068c1f0d.jpg",
+  "static/media/poke.jpg": "/shifumiapp/static/media/poke.f3add7ff.jpg"
 }

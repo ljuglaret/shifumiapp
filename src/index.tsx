@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App0 from './AppPFC';
 import App1 from './AppPFCLS';
 import App2 from './AppPoke';
 
@@ -33,7 +33,7 @@ render(
         </div>
         }
           />
-      <Route path="/app" element={<App />} />
+      <Route path="/app0" element={<App0 />} />
       <Route path="/app1" element={<App1 />} />
       <Route path="/app2" element={<App2 />} />
 
@@ -41,4 +41,3 @@ render(
   </BrowserRouter>,
   rootElement
 );
-

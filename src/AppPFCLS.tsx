@@ -1,5 +1,7 @@
 import './App.css';
 import { comparePFCLS, PFCLS, reglesPFCLS } from './Rules';
+import React from 'react';
+
 
 const randomEnumValue = (enumeration: any) => {
   const values = Object.keys(enumeration);
@@ -40,7 +42,7 @@ function game(playerChoice: PFCLS) {
   divScoreC.innerHTML = "computer : " + computerChoice + " (" + scoreC + ")";
 }
 
-export function App() {
+export function App1() {
   return (
     <div className="App">
       <header className="App-header">
@@ -57,4 +59,4 @@ export function App() {
   );
 }
 
-export default App;
+export default App1;

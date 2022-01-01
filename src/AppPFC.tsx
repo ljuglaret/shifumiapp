@@ -1,7 +1,6 @@
 import React, { createElement } from 'react';
 import './App.css';
 import { comparePFC, PFC, reglesPFC } from './Rules';
-import { Link } from 'react-router-dom';
 
 const randomEnumValue = (enumeration: any) => {
   const values = Object.keys(enumeration);
@@ -42,7 +41,7 @@ function game(playerChoice: PFC) {
   divScoreC.innerHTML = "computer : " + computerChoice + " (" + scoreC + ")";
 }
 
-export function App() {
+export function AppPFC() {
   return (
     <div className="App">
       <header className="App-header">
@@ -56,4 +55,4 @@ export function App() {
   );
 }
 
-export default App;
+export default AppPFC;

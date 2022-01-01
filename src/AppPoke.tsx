@@ -1,5 +1,6 @@
 import './App.css';
 import { comparePoke, Poke, reglesPoke } from './Rules';
+import React from 'react';
 
 const randomEnumValue = (enumeration: any) => {
   const values = Object.keys(enumeration);
@@ -40,7 +41,7 @@ function game(playerChoice: Poke) {
   divScoreC.innerHTML = "computer : " + computerChoice + " (" + scoreC + ")";
 }
 
-export function App() {
+export function App2() {
     return (
       <div className="App">
         <header className="App-header">
@@ -54,4 +55,4 @@ export function App() {
   );
 }
 
-export default App;
+export default App2;
