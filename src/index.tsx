@@ -5,19 +5,16 @@ import App0 from './AppPFC';
 import App1 from './AppPFCLS';
 import App2 from './AppPoke';
 
-
 import reportWebVitals from './reportWebVitals';
-import { render } from "react-dom";
 import {
-  BrowserRouter,
   Routes,
   Route,
-  Link
+  Link,
+  HashRouter 
 } from "react-router-dom";
 
-const rootElement = document.getElementById("root");
-render(
-  <BrowserRouter>
+ReactDOM.render(
+  <HashRouter>
     <Routes>
       <Route path="/" element= {
           <div>
@@ -38,6 +35,7 @@ render(
       <Route path="/app2" element={<App2 />} />
 
     </Routes>
-  </BrowserRouter>,
-  rootElement
+  </HashRouter>,
+  document.getElementById("root")
 );
+reportWebVitals();
