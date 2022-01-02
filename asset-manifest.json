@@ -1,7 +1,7 @@
 {
-  "main.css": "/shifumiapp/static/css/main.f99c808a.chunk.css",
-  "main.js": "/shifumiapp/static/js/main.a328706e.chunk.js",
-  "main.js.map": "/shifumiapp/static/js/main.a328706e.chunk.js.map",
+  "main.css": "/shifumiapp/static/css/main.31ac049a.chunk.css",
+  "main.js": "/shifumiapp/static/js/main.1ccbff2d.chunk.js",
+  "main.js.map": "/shifumiapp/static/js/main.1ccbff2d.chunk.js.map",
   "runtime~main.js": "/shifumiapp/static/js/runtime~main.e38952d8.js",
   "runtime~main.js.map": "/shifumiapp/static/js/runtime~main.e38952d8.js.map",
   "static/js/2.7807c110.chunk.js": "/shifumiapp/static/js/2.7807c110.chunk.js",
@@ -9,9 +9,9 @@
   "static/js/3.6c748c52.chunk.js": "/shifumiapp/static/js/3.6c748c52.chunk.js",
   "static/js/3.6c748c52.chunk.js.map": "/shifumiapp/static/js/3.6c748c52.chunk.js.map",
   "index.html": "/shifumiapp/index.html",
-  "precache-manifest.0cb80edff5732c87d98461318cb1fbad.js": "/shifumiapp/precache-manifest.0cb80edff5732c87d98461318cb1fbad.js",
+  "precache-manifest.75396e000ea7dfc20fcf445ec0bbca2e.js": "/shifumiapp/precache-manifest.75396e000ea7dfc20fcf445ec0bbca2e.js",
   "service-worker.js": "/shifumiapp/service-worker.js",
-  "static/css/main.f99c808a.chunk.css.map": "/shifumiapp/static/css/main.f99c808a.chunk.css.map",
+  "static/css/main.31ac049a.chunk.css.map": "/shifumiapp/static/css/main.31ac049a.chunk.css.map",
   "static/media/PFC.jpg": "/shifumiapp/static/media/PFC.c7768f98.jpg",
   "static/media/PFCLS.jpg": "/shifumiapp/static/media/PFCLS.068c1f0d.jpg",
   "static/media/poke.jpg": "/shifumiapp/static/media/poke.f3add7ff.jpg"
