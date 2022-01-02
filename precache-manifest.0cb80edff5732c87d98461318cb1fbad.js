@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b09daf418fe2ce31a934",
-    "url": "/shifumiapp/static/css/main.f1f2dfeb.chunk.css"
+    "revision": "54e54b02e31edb3bc349",
+    "url": "/shifumiapp/static/css/main.f99c808a.chunk.css"
   },
   {
-    "revision": "b09daf418fe2ce31a934",
-    "url": "/shifumiapp/static/js/main.c031e308.chunk.js"
+    "revision": "54e54b02e31edb3bc349",
+    "url": "/shifumiapp/static/js/main.a328706e.chunk.js"
   },
   {
     "revision": "3957b630849b84d33a72",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/shifumiapp/static/media/poke.f3add7ff.jpg"
   },
   {
-    "revision": "1c2f9d623d05e78d9756d78f0fdbee06",
+    "revision": "7b31d9f2a739a8f89bc712b481816194",
     "url": "/shifumiapp/index.html"
   }
 ];

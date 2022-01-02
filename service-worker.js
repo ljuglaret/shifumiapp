@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/shifumiapp/precache-manifest.772b1cfef6df3ef24445b2e093d9004a.js"
+  "/shifumiapp/precache-manifest.0cb80edff5732c87d98461318cb1fbad.js"
 );
 
 workbox.clientsClaim();
